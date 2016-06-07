@@ -1,52 +1,47 @@
 ﻿body {
     overflow: hidden;
+    margin: 0;
 }
-
-.ms-Dialog {
-  height: 100%; }
-  .ms-Dialog__main {
-    margin: auto;
-    padding-bottom: 15px;
-  }
-  .ms-Dialog__header {
-    height: 20px;
-     }
-    .ms-Dialog__header--left {
-      float: left;
-      margin-left: 10px; }
-    .ms-Dialog__header--right {
-      float: right; }
-
+    
 p {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-.ms-Grid-col {
-  vertical-align: middle;
-  padding-left: 0px; }
+  text-align: left;
+  padding: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+   }
 
 .ms-Dialog-content {
-  padding: 15px; }
+    padding-left: 5px;
+}
 
+.ms-Grid {
+    padding: 0px;
+}
+
+.ms-Grid-row {
+    padding: 15px;
+    margin: 0px;
+}
+
+.ms-Grid-col {
+    padding: 0px;
+}
 .ms-Dialog-text {
   padding-top: 6px;
-  padding-left: 0px;
-  padding-bottom: 6px; }
-
-.ms-Icon--x {
-  font-size: medium; }
+  padding-left: 6px;
+  padding-bottom: 0px;
+}
 
 .ms-Icon--alert {
   color: #ffb900;
-  font-size: 33px; }
+  font-size: xx-large; }
 
 .ms-Button {
   margin: auto;
   display: block;
   padding-left: 55px;
   padding-right: 55px;
-  margin-bottom: 15px !important;
   padding-top: 2px;
   padding-bottom: 2px;
+  margin-bottom: 15px !important;
 }

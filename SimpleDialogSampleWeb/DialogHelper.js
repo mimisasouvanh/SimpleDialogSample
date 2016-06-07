@@ -48,9 +48,14 @@ function eventHandler(arg) {
 
 }
 
-function openDialog() {
+function openAlertDialog() {
     Office.context.ui.displayDialogAsync("https://localhost:44328/Dialog.html",
-        { height: 8, width: 14 }, dialogCallback);
+        { height: 10, width: 30 }, dialogCallback);
+}
+
+function openClientDialog() {
+    Office.context.ui.displayDialogAsync("https://localhost:44328/ClientDialog.html",
+        { height: 50, width: 50 }, dialogCallback);
 }
 
 

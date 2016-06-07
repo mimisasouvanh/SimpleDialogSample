@@ -4,7 +4,7 @@
 
 <html>
 <head>
-    <title></title>
+    <title>Alert</title>
 	<meta charset="utf-8" />
     <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
 
@@ -24,29 +24,25 @@
     </script>
 </head>
 <body>
-    <main class="ms-Dialog__main">
-
-        <div class="ms-Dialog-content">
-            <div class="ms-Grid">
-                <div class="ms-Grid-row">
-                    <div class="ms-Grid-col">
-                        <i class="ms-Icon ms-Icon--alert" aria-hidden="true"></i>
-                    </div>
-                    <div class="ms-Grid-col ms-font-s">
-                        <div class="ms-Dialog-text">
-                            Deleting this cell will cancel the current document analysis.
-                        </div>
-                    </div>
-                </div>
+    <div class="ms-Dialog-content">
+        <div class="ms-Grid">
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col"><i class="ms-Icon ms-Icon--alert" aria-hidden="true"></i></div>
+                <div class="ms-Grid-col"><div class="ms-Dialog-text ms-font-xs">
+    Deleting this cell will cancel the current document analysis.
+</div>
+               </div>
             </div>
-            
         </div>
-        <button class="ms-Button ms-Button--primary" id="button-ok" onclick="messageParent('Dialog closed')">
-            <span class="ms-Button-icon"></span>
-            <span class="ms-Button-label">OK</span>
-            <span class="ms-Button-description">Click OK to cancel</span>
-        </button>
-    </main>
+        
+    </div>
+            <button class="ms-Button ms-Button--primary" id="button-ok" onclick="messageParent('Dialog closed')">
+                <span class="ms-Button-icon"></span>
+                <span class="ms-Button-label">OK</span>
+                <span class="ms-Button-description">Click OK to cancel</span>
+            </button>
+        
+    
 </body>
 
 </html>

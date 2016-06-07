@@ -27,9 +27,9 @@
                 return;
             }
 
-            $("#template-description").text("Office JS ready. Click the pick a color button to show dialog");
-            $('#button-text').text("Pick a number!");
-            $('#button-desc').text("Pick your favorite number");
+            $("#template-description").text("Office JS ready. Click the button to show dialog");
+            $('#button-text').text("Open Alert Dialog");
+            $('#button-desc').text("Opens the alert dialog box");
             
 
             // Add a click event handler for the action button.
@@ -39,7 +39,7 @@
     };
 
     function handleButton() {
-        openDialog();
+        openAlertDialog();
     } 
 
 

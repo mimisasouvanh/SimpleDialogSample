@@ -146,8 +146,8 @@
         <bt:Image id="Contoso.tpicon_80x80" DefaultValue="~remoteAppUrl/Images/ButtonPane80x80.png" />
 
         <bt:Image id="Contoso.funcicon_16x16" DefaultValue="~remoteAppUrl/Images/Button16x16.png" />
-        <bt:Image id="Contoso.funcicon_32x32" DefaultValue="~remoteAppUrl/Images/Button32x32.png" />
-        <bt:Image id="Contoso.funcicon_80x80" DefaultValue="~remoteAppUrl/Images/Button80x80.png" />
+        <bt:Image id="Contoso.funcicon_32x32" DefaultValue="~remoteAppUrl/Images/Client33x33.png" />
+        <bt:Image id="Contoso.funcicon_80x80" DefaultValue="~remoteAppUrl/Images/Client167x167.png" />
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="~remoteAppUrl/FunctionFile.html" />

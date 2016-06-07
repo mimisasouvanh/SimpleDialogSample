@@ -67,6 +67,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClientDialog.html" />
     <Content Include="Dialog.css" />
     <Content Include="DialogHelper.js" />
     <Content Include="Images\ButtonPane16x16.png" />
